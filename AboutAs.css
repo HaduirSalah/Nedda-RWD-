@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav1 {
+    padding: 15px;
+}
+
+#NavPhone {
+    color: #ffff;
+}
+
+#NavIcon i {
+    color: #ccd1dd;
+    width: 12px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+#NavIcon i:hover {
+    color: #ffff;
+    cursor: pointer;
+
+}
+
+.nav-item,
+.dropdown-item {
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    color: #555555;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+ul {
+    margin-left: 290px;
+}
+
+i {
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.Space {
+    background-color: #e5e8e8;
+    width: 100%;
+    height: 10%;
+}
+span {
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+#positionp {
+    position: relative;
+    top: -5px;
+    left: -4px;
+    color: #ffff;
+    font-size: 11px;
+
+
+}
+.hr1 {
+    max-width: 6em;
+    border-radius: 10px;
+}
+
+.div1,
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    padding: 10px 0;
+    
+
+}
+
+h3 {
+    width: 20%;
+    font-size: x-large;
+    font-weight: 700;
+    padding: 10px 0;
+    
+}
+
+.p1 {
+    font-size: 18px;
+    max-width: 50%;
+    color: #555555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn1 {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: medium;
+}
+.div2 {
+    margin-bottom: 100px;
+}
+.divv {
+    padding: 10px 40px;
+    margin: 20px 0;
+}
+
+.divv h1 {
+    font-weight: bold;
+}
+
+.hr2 {
+    max-width: 2em;
+    border-radius: 10px;
+
+}
+
+.divv p {
+    font-size: 17px;
+    max-width: 100%;
+    color: #555555;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.divv .img2 {
+    margin-top: 20px;
+}
+
+.div2 img {
+    border-radius: 5px;
+}
+
+.overlay {
+    background-image: url(Img/slide-3.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    
+
+
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    background-color: #0a2158;
+    width: 100%;
+    height: 500px;
+    opacity: 0.9;
+    
+
+
+}
+
+.container2 {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px;
+    
+
+}
+
+
+.overlay .h1 {
+    color: white;
+    font-weight: bold;
+
+}
+
+.overlay .overlayp {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 18px;
+}
+
+.overlay .hr3 {
+    width: 3em;
+}
+
+
+.content {
+    background-color: #ffffff;
+    position: relative;
+    top: 275px;
+    z-index: 3;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 6px #0000001a;
+    margin-bottom: 50px;
+   
+
+
+}
+
+.div3 .Div {
+    display: flex;
+    margin: 40px;
+
+}
+
+.div3 .Div img {
+    margin-right: 20px;
+}
+
+.div4 img {
+    position: relative;
+    left: 12px;
+    border-radius: 0px 10px 10px 0px;
+    /* top-right top-left bottom-left bottom-right */
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.Divv h2 {
+    font-size: 24px;
+}
+
+.Divv p {
+    max-width: 100%;
+    font-size: 17px;
+    color: #555555;
+
+}
+
+
+.Counter {
+    background-color: #ffffffea;
+    /* display: flex;
+    justify-content: space-evenly; */
+    text-align: center;
+    position: relative;
+    top: 400px;
+    margin-bottom: 100px;
+}
+
+.divCount h6 {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+}
+
+.divCount p {
+    font-size: 18px;
+    color: #555555;
+}
+
+
+
+/* X-Small */
+@media only screen and (max-width: 600px) {
+
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hr1 {
+        max-width: 2em;
+        border-radius: 10px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h3 {
+        width: 100%;
+    }
+
+    .p1 {
+
+        max-width: 100%;
+    }
+
+    .div4 img {
+        position: relative;
+        left: 0;
+        border-radius: 10px 10px 10px 10px;
+        /* top-right top-left bottom-left bottom-right */
+        max-width: 100%;
+        height: 100%;
+    
+    }
+}
+
